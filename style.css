@@ -29,20 +29,32 @@ body {
 
 #duo, #nigretai {
     position: absolute;
-    font-size: 10rem;
+    font-size: 7rem;
     text-transform: none;
     color: #54B8E8;
     text-shadow: 5px 5px 0 #FFDB57;
 }
 
 #duo {
-    left: 780px;
+    left: 850px;
     top: 300px;
 }
 
 #nigretai {
-    left: 615px;
-    top: 420px;
+    left: 735px;
+    top: 415px;
+}
+
+#jessica {
+    position: absolute;
+    left: 430px;
+    top: 235px;
+}
+
+#kaue {
+    position: absolute;
+    left: 1200px;
+    top: 235px;
 }
 
 footer {
