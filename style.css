@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    /*background-image: url("./pictures/bckgrd_odd.svg");*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: 100%;*/
+    /*background-position: center;*/
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #FFDB57;
+}
+
+.bg-img {
+    background-image: url("./pictures/bckgrd_odd.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #999;
+
+}
+
+.navbar-item, .navbar-link {
+    color: #FFDB57;
+}
+
+.navbar-item img {
+    max-height: 6rem;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
