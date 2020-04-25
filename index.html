@@ -11,9 +11,9 @@
 </head>
 <body>
 <header>
-    <nav class="navbar" role="navigation" aria-label="main navigation">
+    <nav class="navbar " role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
-            <a class="navbar-item" href="https://unehirondelle.github.io/dn_website/">
+            <a class="navbar-item " href="https://unehirondelle.github.io/dn_website/">
                 <img src="./pictures/logo.png" width="92" height="91" alt="logo">
             </a>
             <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
@@ -23,7 +23,7 @@
                 <span aria-hidden="true"></span>
             </a>
         </div>
-        <div id="navbarBasicExample" class="navbar-menu">
+        <div id="navbarBasicExample" class="navbar-menu is-uppercase yellow">
             <div class="navbar-start">
                 <a class="navbar-item">
                     Awards
@@ -110,14 +110,29 @@
         </div>
     </nav>
 </header>
-<main>
-    <img src="./pictures/Jessica_transparent.png" alt="jessica" id="jessica">
-    <img src="./pictures/Kaue_transparent.png" alt="kaue" id="kaue">
-    <span id="duo">Duo</span><br>
-    <span id="nigretai">Nigretai</span>
+<main class="has-text-centered">
+    <div class="columns">
+        <div class="column is-full">
+            <h1 class="title is-1 has-text-weight-bold">Duo</h1><br>
+            <h1 class="title is-1 has-text-weight-bold">Nigretai</h1>
+        </div>
+    </div>
+
+    <div class="columns">
+        <div class="column"></div>
+        <div class="column"><img src="./pictures/Jessica_transparent.png" alt="jessica"></div>
+        <div class="column"><img src="./pictures/Kaue_transparent.png" alt="kaue"></div>
+        <div class="column"></div>
+
+    </div>
+    <div class="columns">
+        <div class="column is-full is-uppercase">
+            <h1 class="is-size-1 blue">Power of hair and teeth</h1>
+            <p><a href="#">
+                <button class="button is-rounded is-warning">Shows</button>
+            </a></p>
+            <a><i class="fas fa-chevron-down"></i></a></div>
+    </div>
 </main>
-<footer>
-    Footer
-</footer>
 </body>
 </html>

@@ -1,63 +1,37 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-
+html {
+    background-color: transparent;
 }
 
 body {
-    background-image: url("./pictures/bckgrd_odd.svg");
+    background-image: url("./pictures/bckgrd_odd.png");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     background-position: center;
-    font-family: 'Josefin Sans', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 22px;
-    text-transform: uppercase;
-    color: #FFDB57;
 }
 
-.navbar-item, .navbar-link {
-    color: #FFDB57;
+.yellow {
+    color: yellow;
+}
+
+.blue {
+    color: deepskyblue;
+}
+
+.title {
+    color: deepskyblue;
+    text-shadow: 3px 3px 0 yellow;
+
+}
+
+.navbar {
+    background-color: transparent;
+}
+
+.navbar-item {
+    color: yellow;
 }
 
 .navbar-item img {
-    max-height: 6rem;
+    max-height: 100%;
 }
 
-#duo, #nigretai {
-    position: absolute;
-    font-size: 7rem;
-    text-transform: none;
-    color: #54B8E8;
-    text-shadow: 5px 5px 0 #FFDB57;
-}
-
-#duo {
-    left: 850px;
-    top: 300px;
-}
-
-#nigretai {
-    left: 735px;
-    top: 415px;
-}
-
-#jessica {
-    position: absolute;
-    left: 430px;
-    top: 235px;
-}
-
-#kaue {
-    position: absolute;
-    left: 1200px;
-    top: 235px;
-}
-
-footer {
-    position: absolute;
-    bottom: 0;
-}
