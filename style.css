@@ -1,4 +1,4 @@
-html, .navbar, a.navbar-item:hover, .navbar-dropdown, .has-dropdown, .navbar-link:hover, .navbar-dropdown a.navbar-item:hover, .navbar-link:focus  {
+html, .navbar, a.navbar-item:hover, .navbar-dropdown, .has-dropdown, .navbar-link:hover, .navbar-dropdown a.navbar-item:hover, .navbar-link:focus {
     background-color: transparent;
 }
 
@@ -24,7 +24,6 @@ body {
 }
 
 
-
 .navbar-item, .navbar-link {
     color: yellow;
 }
@@ -37,5 +36,6 @@ body {
     max-height: 100%;
 }
 
-
-
+.title.is-1 {
+    font-size: 13vh;
+}
