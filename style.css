@@ -10,11 +10,15 @@ body {
 }
 
 .yellow {
-    color: yellow;
+    color: #FFDB57;
 }
 
 .blue {
-    color: deepskyblue;
+    color: #54B8E8;
+}
+
+.darkblue {
+    color: #2F44B5;
 }
 
 .title {
